@@ -17,7 +17,7 @@
 
 Hoy en día no es práctico imaginar el desarrollo web sin HTML, CSS y JavaScript,
 esta última es el alma del desarrollo de aplicaciones web.
-[React](https://reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
+[React](https://reactjs.org/) y [Angular](https://angular.io/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
@@ -357,79 +357,6 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Quick Start - Documentación oficial (en inglés)](https://reactrouter.com/web/guides/quick-start)
 </p></details>
 
-### Vue
-
-- [ ] **Instancia de Vue.js**
-
-  <details><summary>Links</summary><p>
-
-  * [La instancia Vue - Documentación oficial](https://es.vuejs.org/v2/guide/instance.html)
-</p></details>
-
-- [ ] **Datos y métodos**
-
-  <details><summary>Links</summary><p>
-
-  * [Datos y Métodos - Documentación oficial](https://es.vuejs.org/v2/guide/instance.html#Datos-y-Metodos)
-</p></details>
-
-- [ ] **Uso y creación de componentes**
-
-  <details><summary>Links</summary><p>
-
-  * [Conceptos Básicos de Componentes - Documentación oficial](https://es.vuejs.org/v2/guide/components.html)
-</p></details>
-
-- [ ] **Props**
-
-  <details><summary>Links</summary><p>
-
-  * [Pasando datos a componentes secundarios con Props - Documentación oficial](https://es.vuejs.org/v2/guide/components.html#Pasando-datos-a-componentes-secundarios-con-Props)
-</p></details>
-
-- [ ] **Directivas (v-bind | v-model)**
-
-  <details><summary>Links</summary><p>
-
-  * [v-bind - Documentación oficial](https://es.vuejs.org/v2/api/#v-bind)
-  * [Binding en Formularios - Documentación oficial](https://es.vuejs.org/v2/guide/forms.html)
-</p></details>
-
-- [ ] **Iteración (v-for)**
-
-  <details><summary>Links</summary><p>
-
-  * [Mapeando una matriz a elementos con v-for - Documentación oficial](https://es.vuejs.org/v2/guide/list.html#Mapeando-una-matriz-a-elementos-con-v-for)
-</p></details>
-
-- [ ] **Eventos (v-on)**
-
-  <details><summary>Links</summary><p>
-
-  * [Manejo de eventos - Documentación oficial](https://es.vuejs.org/v2/guide/events.html)
-</p></details>
-
-- [ ] **Propiedades Computadas y Observadores**
-
-  <details><summary>Links</summary><p>
-
-  * [Propiedades Computadas y Observadores](https://es.vuejs.org/v2/guide/computed.html)
-</p></details>
-
-- [ ] **Routing**
-
-  <details><summary>Links</summary><p>
-
-  * [Getting Started - Documentación oficial de Vue Router](https://router.vuejs.org/guide/#html)
-</p></details>
-
-- [ ] **Clases y Estilos**
-
-  <details><summary>Links</summary><p>
-
-  * [Enlace Clases y Estilos - Documentación oficial](https://es.vuejs.org/v2/guide/class-and-style.html)
-</p></details>
-
 ## 4. Consideraciones generales
 
 * Este proyecto se debe "resolver" de forma individual.
@@ -528,7 +455,7 @@ aunque no serán los únicos archivos que quizás tendrás que crear.
   ser una buena practica tener configurado un linter.
 
 Para este proyecto necesitas crear una Web App con **una librería o
-framework de JavaScript** (`React`, `Angular` o `Vue`) y **Firebase**.
+framework de JavaScript** (`React` o `Angular`) y **Firebase**.
 
 Para este proyecto tendrás que manejar _vistas_. Esto significa que cada sección
 tendrá su propia URL, la cual indica que _vista_ o _componente_ será mostrado en
@@ -558,7 +485,6 @@ pasarte a esta sección.
 
 * [React](https://reactjs.org/)
 * [Angular](https://angular.io/)
-* [Vue](https://es.vuejs.org/index.html)
 
 ### Herramientas
 
