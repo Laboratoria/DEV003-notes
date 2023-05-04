@@ -1,5 +1,5 @@
 .imgStyle {
-    background-color: aliceblue;
+    @apply bg-white;
     position: relative;
     overflow: hidden;
 }
