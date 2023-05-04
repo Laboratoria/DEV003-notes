@@ -34,7 +34,7 @@ export default function Login() {
                             placeholder="Pasword"
                             className={styles.input_text}
                         />
-                        {/* <Image src={'./assets/at.svg'}width={20} height={20} ></Image> */}
+                        <Image src={'./assets/at.svg'}  width={20} height={20} ></Image>
                     </div>
                     {/* login button */}
                     <div className="input-button ">
