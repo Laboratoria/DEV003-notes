@@ -3,7 +3,7 @@ import Layout from "../layout/layout";
 import Link from "next/link";
 import styles from "../styles/Form.module.css"
 import Image from "next/image";
-import { Icon } from "next/dist/lib/metadata/types/metadata-types";
+
 
 export default function Login() {
     return (
@@ -34,7 +34,7 @@ export default function Login() {
                             placeholder="Pasword"
                             className={styles.input_text}
                         />
-                        <Image src={'./assets/at.svg'}  width={20} height={20} ></Image>
+                        <Image src={'../../assets/at.svg'}  width={20} height={20} ></Image>
                     </div>
                     {/* login button */}
                     <div className="input-button ">

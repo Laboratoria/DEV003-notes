@@ -1,6 +1,6 @@
 import styles from '../styles/Layout.module.css'
 
-export default function Layaout({ children }) {
+export default function Layout({ children }) {
 
   return (
     <div className="flex h-screen bg-gray-300">
