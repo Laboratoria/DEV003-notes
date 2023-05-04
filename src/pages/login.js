@@ -25,7 +25,7 @@ export default function Login() {
                             placeholder="Email"
                             className={styles.input_text}
                         />
-                        
+                             <Image src={'../../assets/at.svg'}  width={20} height={20 } ></Image>
                     </div>
                     <div className={styles.input_group}>
                         <input
@@ -34,7 +34,7 @@ export default function Login() {
                             placeholder="Pasword"
                             className={styles.input_text}
                         />
-                        <Image src={'../../assets/at.svg'}  width={20} height={20} ></Image>
+                   
                     </div>
                     {/* login button */}
                     <div className="input-button ">
@@ -45,12 +45,12 @@ export default function Login() {
                     </div>
                     <div className="input-button ">
                         <button className={styles.button_custom} type="button">
-                            Sign in with Google<Image src={'./assets/google.svg'} width="20" height="20"></Image>
+                            Sign in with Google<Image src={'./assets/google.svg'} width="20" height="20" alt="google"></Image>
                         </button>
                     </div>
                     <div className="input-button ">
                         <button className={styles.button_custom} type="button">
-                            Sign in with Github<Image src={'./assets/github.svg'} width="25" height="25"></Image>
+                            Sign in with Github<Image src={'./assets/github.svg'} width="25" height="25"alt="github" ></Image>
                         </button>
                     </div>
 
@@ -58,7 +58,7 @@ export default function Login() {
                 </form>
                 {/* bottom */}
                 <p className="text-center text-gray-600">
-                    don't have an account yet? <Link legacyBehavior href={'/register'}><a className="text-pink-700">Sign Up</a></Link>
+                    Don't have an account yet? <Link legacyBehavior href={'/register'}><a className="text-pink-700">Sign Up</a></Link>
                 </p>
             </section>
         </Layout>
