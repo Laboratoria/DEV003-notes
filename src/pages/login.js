@@ -3,9 +3,16 @@ import Layout from "../layout/layout";
 import Link from "next/link";
 import styles from "../styles/Form.module.css"
 import Image from "next/image";
-
+import { HiMail, HiFingerPrint} from "react-icons/hi";
+import { useState } from "react";
 
 export default function Login() {
+
+    const [show, setShow]=useState();
+    const handleToggle=()=>{
+    setShow(!show)
+    }
+
     return (
         <Layout>
             <Head>
@@ -18,26 +25,30 @@ export default function Login() {
                 </div>
                 {/* form */}
                 <form className="flex flex-col gap-4">
-                    <div className={styles.input_group}>
+                <div className={styles.input_group}>
                         <input
                             type="email"
                             name="email"
                             placeholder="Email"
                             className={styles.input_text}
                         />
-                             <Image src={'../../assets/at.svg'}  width={20} height={20 } ></Image>
+                          <span className="icon flex items-center px-4">
+                            < HiMail size={25}/>
+                          </span>
                     </div>
                     <div className={styles.input_group}>
                         <input
-                            type="pasword"
+                            type={`${show ? "text":"password"}`}
                             name="pasword"
                             placeholder="Pasword"
                             className={styles.input_text}
                         />
-                   
+                     <span className="icon flex items-center px-4" onClick={handleToggle}>
+                            <HiFingerPrint  size={25} />
+                          </span>
                     </div>
                     {/* login button */}
-                    <div className="input-button ">
+                    <div className="input-button">
                         <button
                             className={styles.button}
                             type="submit">Login</button>
